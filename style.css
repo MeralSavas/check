@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+main {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 40px;
+}
+form {
+  width: 50%;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+  text-align: left;
+}
+.full {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  display: inline-block;
+  gap: 5px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+form i {
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+}
+input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5rem;
+  border-radius: 5px;
+  padding-left: 2rem;
+  border: 1px solid rgb(161, 158, 158) border;
+}
+select {
+  width: 100%;
+  height: 35px;
+  padding-left: 25px;
+  border-radius: 5px;
+}
+h1 {
+  /* border: 2px solid red; */
+  text-align: center;
+  /* background-color: blueviolet; */
+  width: 600px;
+  margin: auto;
+  /* border-radius: 10px; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.checkbox {
+  display: flex;
+  /* gap: 10px; */
+  margin-top: 20px;
+}
+.checkbox input {
+  width: auto;
+  margin-left: 10px;
+}
+label {
+  margin-left: 10px;
+}
+
+/************ BOX ***************/
+.box {
+  width: 50%;
+  padding: 1rem;
+  background-color: #eeeeee;
+  border-radius: 15px;
+}
+.bottom {
+  display: flex;
+  border: 1px solid rgb(159, 136, 136);
+  padding: 5px;
+  width: 80px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.picture {
+  display: flex;
+  gap: 30px;
+  height: 175px;
+  align-items: center;
+}
+.next {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.total {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(150, 136, 136);
+  margin-top: 1rem;
+}
+.btn1 {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn1 button {
+  width: 100px;
+  height: 40px;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: darkorange;
+}
+button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 5px rgb(105, 100, 100);
+}
+.remove {
+  background-color: rgb(223, 136, 37);
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+#gr-phone {
+  background-color: whitesmoke;
+}
