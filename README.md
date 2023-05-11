@@ -1,4 +1,4 @@
-# Checkout-form
+# Project: Checkout-form
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Projects/32_Checkout-form_DOM/)
 
