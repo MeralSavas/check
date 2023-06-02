@@ -19,5 +19,3 @@ I mastered Javascript-DOM, HTML and CSS features in this project. You can see th
 - First download a code editor
 - Second open the files : [My Docs](https://github.com/Sekunev/Projects/tree/main/32_Checkout-form_DOM)
 - You can use this tutorial : [VS Code tutorial](https://www.youtube.com/watch?v=fJEbVCrEMSE)
-
-#### ⌛ Happy Coding ✍
